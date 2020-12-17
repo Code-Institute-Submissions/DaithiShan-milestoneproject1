@@ -1,45 +1,72 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# The Mater Foundation Website (Reimagined)
 
-Welcome USER_NAME,
+## Milestone Project Purpose
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The reimagined website of the Mater Foundation, the official fundraising body for the Mater Public Hospital. The organizing principle is education, and the target audience is potential supporters and returning supporters. The primary goal is to prompt support from all visitors, by inspiring their trust and confidence.
 
-## Gitpod Reminders
+[View the live project here.](###)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+### User Stories
 
-A blue button should appear to click: *Make Public*,
+-  #### Potential Volunteer Goals
 
-Another blue button should appear to click: *Open Browser*.
+1. Learn how they can make a big difference
+2. Quickly find out how to act on that information
+3. Be uplifted and inspired by amazing patient stories
+4. Confidence that the Mater Foundation is an official charity
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+-   #### Supporting the Mater Foundation will meet these vital needs 
 
-A blue button should appear to click: *Make Public*,
+1. Our focus is showing the need, and how you can help meet it
+2. Priority for us is ease of visitor navigation and contact in planning
+3. Fature numerous patient stories, and point to more on social media
+4. Ensure official charity registration details are on every web page
 
-Another blue button should appear to click: *Open Browser*.
+-  #### Returning Volunteer Goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+1. Feel that previous support made a genuine difference
+2. See real progress of the organization to fulfilling mission
+3. Directly hear from intended beneficiaries about benefit of their support
+4. Join a community that will be a positive source of meaning in their life
 
-## Updates Since The Instructional Video
+-  #### We can provide these reassurances, and that community
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+1. Feature hospital news that shows volunteer impact on mission
+2. Illustrate a timeline of major projects, and show continual improvement
+3. Prominently feature direct quotes from patients grateful for support
+4. Provide sign up for our community newsletter, and point to  social media
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-  #### Frequent Volunteer Goals
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+1. Feel especially valued
+2. Learn about how funds are being spent
+3. Understand our strategy, and overall end point
+4. Deepen their relationship with our organization
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-  #### We will meet the goals of this key group by 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+1. Regularly updating volunteer content on our website
+2. Provide sign posted links to downloadable audited accounts
+3. Provide sign posted links to our downloadable strategy
+4. Offer a space for visitors to tell their own story
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+-   #### Mater Foundation Goals
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+1. Prompt contact from all potential supporters
+2. Retain and reactivate returning supporters
+3. Inspire trust in all website visitors
+4. Show amazing impact of support
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Design
 
---------
+### Sitemap and Wireframe
 
-Happy coding!
+- Mobile Home Page Wireframe - [View](wireframes-sitemap/home-page-mobile.pdf)
+
+- Desktop Home Page Wireframe - [View](wireframes-sitemap/home-page-desktop.pdf)
+
+- Contact Us Page Wireframe - [View](wireframes-sitemap/volunteer-page.pdf)
+
+
