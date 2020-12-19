@@ -61,6 +61,10 @@ The reimagined website of the Mater Foundation, the official fundraising body fo
 
 ### Design
 
+- The three main colours used are Mater Foundation orange, grey and white.
+
+- Trebuchet is the main font used throughout the website, with Sans-Serif as the fallback font. Trebuchet is a humanist font, and has personality as well as professional clarity. It aligns with our brand values.  
+
 ### Sitemap and Wireframe
 
 - Mobile Home Page Wireframe - [View](wireframes-sitemap/home-page-mobile.pdf)
