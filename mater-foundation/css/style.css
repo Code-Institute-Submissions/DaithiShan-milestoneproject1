@@ -12,8 +12,26 @@ body {
 
 /* Containers */
 
-.hero-container {
+.index {
+    padding: 0;
+}
 
+/* Full background image snipper from css-tricks.com */
+
+.hero-container {
+    height: 100vh;
+    margin-bottom: 10px;
+    background: url('../images/staff.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
 .about-container {
@@ -25,3 +43,28 @@ body {
 }
 
 /* .containers */
+
+/*Overlays*/
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* Sections */
+
+.hero-section {
+    color: #fff;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    width: 68%;
+    transform: translate(-50%, -50%);
+}
+
+/* .sections */
+
