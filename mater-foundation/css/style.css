@@ -105,12 +105,19 @@ body {
 
 .btn-hero {
     font-weight: 700;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
 }
 
 .btn--orange {
     color: #fff;
     background-color: #ff6a13;
     border-color: #ff6a13;
+}
+
+.btn--orange:hover {
+    color: #212527;
 }
 
 .btn--white {
