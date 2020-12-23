@@ -103,12 +103,16 @@ body {
 
 /* Btns */
 
+/* Btn-hero is customized bootstrap btn-lg */
+
 .btn-hero {
     font-weight: 700;
     padding: .5rem 1rem;
     font-size: 1.25rem;
     border-radius: .3rem;
 }
+
+/* .btn-hero is customized bootstrap btn-lg */
 
 .btn--orange {
     color: #fff;
@@ -135,4 +139,3 @@ body {
 }
 
 /*.Btns*/
-
