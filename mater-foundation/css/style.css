@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 /* Navbar */
@@ -34,6 +35,8 @@ body {
     position: relative;
 }
 
+/* .full background image snipper from css-tricks.com */
+
 .about-container {
 
 }
@@ -60,11 +63,32 @@ body {
 .hero-section {
     color: #fff;
     position: absolute;
-    top: 78%;
+    top: 70%;
     left: 50%;
     width: 68%;
     transform: translate(-50%, -50%);
 }
 
+.hero-header { 
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+}
+
+.hero-section .lead {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
 /* .sections */
 
+/* Headers */
+
+/*.headers*/
+
+/* Btns */
+
+
+
+/* .btns */
