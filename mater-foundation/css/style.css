@@ -38,7 +38,8 @@ body {
 /* .full background image snipper from css-tricks.com */
 
 .about-container {
-
+    margin: 25px 0px;
+    padding: 20px 0px;
 }
 
 .patient-stories-container {
@@ -58,6 +59,24 @@ body {
     background-color: rgba(0, 0, 0, 0.30);
 }
 
+/* Headers */
+
+.header {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.hero-header { 
+    font-weight: 800;
+}
+
+.about-header {
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* .headers */
+
 /* Sections */
 
 .hero-section {
@@ -69,11 +88,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.hero-header { 
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 800;
-}
-
 .hero-section .lead {
     font-weight: 600;
     margin-top: 10px;
@@ -81,15 +95,36 @@ body {
     padding: 10px;
 }
 
+.about-section {
+    padding-left: 15px;
+}
+
 /* .sections */
 
 /* Btns */
 
 .btn-hero {
+    font-weight: 700;
+}
+
+.btn--orange {
     color: #fff;
     background-color: #ff6a13;
     border-color: #ff6a13;
-    font-weight: 700;
+}
+
+.btn--white {
+    color: #5d5d5f;
+    background-color: #f9fafb;
+    border-color: #5d5d5f;
+    font-weight: 600;
+}
+
+.btn--white:hover {
+    color: #ff6a13;
+    background-color: #f9fafb;
+    border-color: #f9fafb;
+    font-weight: 600;
 }
 
 /*.Btns*/
