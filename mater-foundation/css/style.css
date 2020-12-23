@@ -83,12 +83,14 @@ body {
 
 /* .sections */
 
-/* Headers */
-
-/*.headers*/
-
 /* Btns */
 
+.btn-hero {
+    color: #fff;
+    background-color: #ff6a13;
+    border-color: #ff6a13;
+    font-weight: 700;
+}
 
+/*.Btns*/
 
-/* .btns */
