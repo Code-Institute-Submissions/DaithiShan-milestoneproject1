@@ -42,8 +42,9 @@ body {
     padding: 20px 0px;
 }
 
-.patient-stories-container {
+.patients-container {
     background-color: #e9e9eb;
+    height: 50vh;
 }
 
 /* .containers */
@@ -75,7 +76,7 @@ body {
     margin-bottom: 10px;
 }
 
-.patient-stories-header {
+.patients-header {
     font-weight: 500;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -146,7 +147,7 @@ body {
 
 /*.Btns*/
 
-/* Blockquotes */
+/* Blocks */
 
 .about-block {
     margin: 5px 10px 10px 0;
@@ -155,7 +156,40 @@ body {
     font-size: 120%
 }
 
-/* .blockquotes */
+.patients--block-1 {
+    height: 42vh;
+    background: url('../images/ashling.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+}
+
+.patients--block-2 {
+    height: 42vh;
+    background: url('../images/brendan.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+}
+
+.patients--block-3 {
+    height: 42vh;
+    background: url('../images/carole.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+}
+
+/* .blocks */
 
 /* Hr */
 
