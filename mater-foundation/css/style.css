@@ -46,6 +46,7 @@ body {
 .patient-container {
     background-color: #e9e9eb;
     height: 66vh;
+    position: relative;
 }
 
 /* .containers */
@@ -53,6 +54,15 @@ body {
 /*Overlays*/
 
 .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+.patient-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -109,6 +119,16 @@ body {
 
 .patient-section p {
     color: #fff;
+}
+
+.patient-section .patient-story {
+    position: absolute;
+    top:100%
+}
+
+.patient-section .btn--orange {
+    position: relative;
+    top: 87%;
 }
 
 /* .sections */
