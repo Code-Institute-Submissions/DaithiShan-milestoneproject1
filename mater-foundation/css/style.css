@@ -43,7 +43,7 @@ body {
 }
 
 .patient-stories-container {
-
+    background-color: #e9e9eb;
 }
 
 /* .containers */
@@ -70,6 +70,12 @@ body {
 }
 
 .about-header {
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.patient-stories-header {
     font-weight: 500;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -150,3 +156,23 @@ body {
 }
 
 /* .blockquotes */
+
+/* Hr */
+
+.about-hr {
+    margin: 1rem 0 0 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
+.patient-stories-hr {
+    margin: 0 0 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
+/* .hr */
