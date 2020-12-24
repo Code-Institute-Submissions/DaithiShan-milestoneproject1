@@ -38,13 +38,14 @@ body {
 /* .full background image snipper from css-tricks.com */
 
 .about-container {
-    margin: 25px 0px;
+    height: 33vh;
+    margin: 30px 0px;
     padding: 20px 0px;
 }
 
 .patients-container {
     background-color: #e9e9eb;
-    height: 50vh;
+    height: 66vh;
 }
 
 /* .containers */
@@ -79,7 +80,7 @@ body {
 .patients-header {
     font-weight: 500;
     padding-bottom: 5px;
-    margin-bottom: 10px;
+    margin: 20px 0;
 }
 
 /* .headers */
@@ -157,7 +158,7 @@ body {
 }
 
 .patients--block-1 {
-    height: 42vh;
+    height: 50vh;
     background: url('../images/ashling.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -168,7 +169,7 @@ body {
 }
 
 .patients--block-2 {
-    height: 42vh;
+    height: 50vh;
     background: url('../images/brendan.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -179,7 +180,7 @@ body {
 }
 
 .patients--block-3 {
-    height: 42vh;
+    height: 50vh;
     background: url('../images/carole.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
