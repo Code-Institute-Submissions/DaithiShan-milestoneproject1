@@ -117,7 +117,7 @@ body {
     padding-left: 18px;
 }
 
-.patient-section p {
+.patient-section .lead {
     color: #fff;
 }
 
@@ -128,8 +128,8 @@ body {
 
 .patient-section .btn--orange {
     position: relative;
-    top: 87%;
-}
+    top: 88%;
+} 
 
 /* .sections */
 
