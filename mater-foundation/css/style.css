@@ -43,7 +43,7 @@ body {
     padding: 20px 0px;
 }
 
-.patients-container {
+.patient-container {
     background-color: #e9e9eb;
     height: 66vh;
 }
@@ -77,7 +77,7 @@ body {
     margin-bottom: 10px;
 }
 
-.patients-header {
+.patient-header {
     font-weight: 500;
     padding-bottom: 5px;
     margin: 20px 0;
@@ -107,7 +107,9 @@ body {
     padding-left: 18px;
 }
 
-
+.patient-section p {
+    color: #fff;
+}
 
 /* .sections */
 
@@ -159,8 +161,8 @@ body {
     font-size: 120%
 }
 
-.patients--block-1 {
-    height: 50vh;
+.patient--block-1 {
+    height: 40vh;
     background: url('../images/ashling.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -170,8 +172,8 @@ body {
     position: relative;
 }
 
-.patients--block-2 {
-    height: 50vh;
+.patient--block-2 {
+    height: 40vh;
     background: url('../images/brendan.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -181,8 +183,8 @@ body {
     position: relative;
 }
 
-.patients--block-3 {
-    height: 50vh;
+.patient--block-3 {
+    height: 40vh;
     background: url('../images/carole.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
