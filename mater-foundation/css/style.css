@@ -119,6 +119,8 @@ body {
 
 .patient-section .lead {
     color: #fff;
+    font-weight: 400;
+    font-size: 110%;
 }
 
 .patient-section .patient-story {
