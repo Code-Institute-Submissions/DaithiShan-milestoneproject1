@@ -21,6 +21,8 @@ body {
     padding: 0;
 }
 
+.navbar-container {}
+
 /* Full background image snipper from css-tricks.com */
 
 .hero-container {
@@ -152,7 +154,7 @@ body {
 .btn-volunteer {
     position: absolute;
     top: 4px;
-    right: 15px;
+    right: 10px;
 }
 /* Btn-hero is customized bootstrap btn-lg */
 
