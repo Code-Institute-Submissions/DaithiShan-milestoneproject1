@@ -9,6 +9,10 @@ body {
     margin-right: 0;
 }
 
+.navbar-collapse {
+    position: relative;
+}
+
 /* .navbar */
 
 /* Containers */
@@ -145,6 +149,11 @@ body {
 
 /* Btns */
 
+.btn-volunteer {
+    position: absolute;
+    top: 4px;
+    right: 15px;
+}
 /* Btn-hero is customized bootstrap btn-lg */
 
 .btn-hero {
