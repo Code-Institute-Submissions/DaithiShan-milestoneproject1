@@ -271,6 +271,30 @@ body {
     position: relative;
 }
 
+.patient--block-4 {
+    height: 40vh;
+    background: url('../images/liam.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+}
+
+.patient-story--block
+
+{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 105%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+
 /* .blocks */
 
 /* Hr */
