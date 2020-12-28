@@ -82,6 +82,22 @@ body {
     position: relative;
 }
 
+.hero-container--patient-2 {
+    height: 100vh;
+    margin-bottom: 20px;
+    background: url('../images/brendan.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 /* .full background image snipper from css-tricks.com */
 
 .about-container {
