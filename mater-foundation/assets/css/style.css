@@ -44,7 +44,7 @@ body {
 
 /* Containers */
 
-.index {
+.main {
     padding: 0;
 }
 
@@ -54,6 +54,22 @@ body {
     height: 100vh;
     margin-bottom: 20px;
     background: url('../images/staff.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.hero-container--patient-1 {
+    height: 100vh;
+    margin-bottom: 20px;
+    background: url('../images/ashling.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
