@@ -83,7 +83,7 @@ body {
 }
 
 .hero-container--patient-2 {
-    height: 100vh;
+    height: 66vh;
     margin-bottom: 20px;
     background: url('../images/brendan.png') no-repeat center center; 
     -webkit-background-size: cover;
@@ -99,7 +99,7 @@ body {
 }
 
 .hero-container--patient-3 {
-    height: 100vh;
+    height: 66vh;
     margin-bottom: 20px;
     background: url('../images/carole.png') no-repeat center center; 
     -webkit-background-size: cover;
@@ -115,7 +115,7 @@ body {
 }
 
 .hero-container--patient-4 {
-    height: 100vh;
+    height: 66vh;
     margin-bottom: 20px;
     background: url('../images/liam.png') no-repeat center center; 
     -webkit-background-size: cover;
@@ -205,7 +205,7 @@ body {
     text-align: center;
 }
 
-/* .headers */
+/* .headings */
 
 /* Sections */
 
