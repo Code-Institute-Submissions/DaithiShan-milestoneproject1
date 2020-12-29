@@ -182,23 +182,23 @@ body {
     background-color: rgba(0, 0, 0, 0.30);
 }
 
-/* Headers */
+/* Headings */
 
-.header {
+.heading {
     font-family: 'Fira Sans', sans-serif;
 }
 
-.hero-header { 
+.hero-heading { 
     font-weight: 800;
 }
 
-.about-header {
+.about-heading {
     font-weight: 500;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-.patient-header {
+.patient-heading {
     font-weight: 500;
     padding: 25px 0;
     margin: 20px 0;
