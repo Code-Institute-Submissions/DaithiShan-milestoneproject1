@@ -67,7 +67,7 @@ body {
 }
 
 .hero-container--patient-1 {
-    height: 100vh;
+    height: 66vh;
     margin-bottom: 20px;
     background: url('../images/ashling.png') no-repeat center center; 
     -webkit-background-size: cover;
@@ -149,14 +149,14 @@ body {
 /* .full background image snipper from css-tricks.com */
 
 .about-container {
-    height: 23vh;
+    height: 30vh;
     margin: 30px 0 75px 0;
     padding: 20px 0;
 }
 
 .patient-container {
-    background-color: #e9e9eb;
-    height: 77vh;
+    background-color: #8A8A8A;
+    height: 70vh;
     position: relative;
 }
 
@@ -165,15 +165,6 @@ body {
 /*Overlays*/
 
 .hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.30);
-}
-
-.patient-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -199,6 +190,7 @@ body {
 }
 
 .patient-heading {
+    color: #fff;
     font-weight: 500;
     padding: 25px 0;
     margin: 20px 0;
@@ -229,6 +221,16 @@ body {
     padding-left: 18px;
 }
 
+.patient-image-wrapper {
+    position: relative;
+    min-width: min-content;
+}
+
+.patient-section img {
+    max-width: 100%;
+    max-height: auto;
+}
+
 .patient-section .lead {
     color: #fff;
     padding-top: 10px;
@@ -237,8 +239,8 @@ body {
 }
 
 .patient-section .patient-story {
-    position: absolute;
-    top:100%;
+    /* position: absolute;
+    top:100%; */
 }
 
 .patient-section .patient-details {
@@ -246,8 +248,9 @@ body {
 }
 
 .patient-section .btn--orange {
-    position: relative;
-    top: 87%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     font-size: 94%;
     font-weight: 300;
 } 
@@ -302,49 +305,53 @@ body {
     font-size: 120%
 }
 
-.patient--block-1 {
-    height: 40vh;
-    background: url('../images/ashling.png') no-repeat center center; 
+.patient-block {
+    margin: 5px 10px;
+}
+
+/* .patient--block-1 {
+    /* height: 40vh; */
+    /* background: url('../images/ashling.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    position: relative;
+    position: relative; 
 }
 
-.patient--block-2 {
+/*.patient--block-2 {
     height: 40vh;
-    background: url('../images/brendan.png') no-repeat center center; 
+     background: url('../images/brendan.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    position: relative;
+    position: relative; 
 }
 
-.patient--block-3 {
+/*.patient--block-3 {
     height: 40vh;
-    background: url('../images/carole.png') no-repeat center center; 
+     background: url('../images/carole.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    position: relative;
+    position: relative; 
 }
 
-.patient--block-4 {
+/*.patient--block-4 {
     height: 40vh;
-    background: url('../images/liam.png') no-repeat center center; 
+    /* background: url('../images/liam.png') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    position: relative;
-}
+    position: relative; 
+} 
 
 .patient-story--block
 
@@ -355,7 +362,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center
-}
+} */
 
 
 
