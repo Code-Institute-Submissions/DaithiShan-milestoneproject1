@@ -164,6 +164,7 @@ body {
 .timeline-container {
     background-color: #8A8A8A;
     height: 100%;
+    padding-bottom: 30px;
 }
 
 /* .containers */
