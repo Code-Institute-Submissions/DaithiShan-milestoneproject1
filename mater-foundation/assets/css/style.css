@@ -156,8 +156,13 @@ body {
 
 .patient-container {
     background-color: #8A8A8A;
-    height: 70vh;
+    height: 100%;
     position: relative;
+}
+
+.timeline-container {
+    background-color: #8A8A8A;
+    height: 100%;
 }
 
 /* .containers */
@@ -191,6 +196,14 @@ body {
 }
 
 .patient-heading {
+    color: #fff;
+    font-weight: 500;
+    padding: 25px 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.timeline-heading {
     color: #fff;
     font-weight: 500;
     padding: 25px 0;
@@ -254,7 +267,50 @@ body {
     right: 0;
     font-size: 94%;
     font-weight: 300;
-} 
+}
+
+/* Timeline Section CSS from CI Rosie Odenkirk Module */
+
+.timeline-section {
+    color: #fff
+}
+
+.timeline-section .timeline-item {
+    padding: 4em 2em 0 2em;
+    position: relative;
+    border-left: 1px solid;
+
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: 'Fira-Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 50%;
+    content: '';
+    background: #fff;
+}
 
 /* .sections */
 
@@ -309,63 +365,6 @@ body {
 .patient-block {
     margin: 5px 10px;
 }
-
-/* .patient--block-1 {
-    /* height: 40vh; */
-    /* background: url('../images/ashling.png') no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    position: relative; 
-}
-
-/*.patient--block-2 {
-    height: 40vh;
-     background: url('../images/brendan.png') no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    position: relative; 
-}
-
-/*.patient--block-3 {
-    height: 40vh;
-     background: url('../images/carole.png') no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    position: relative; 
-}
-
-/*.patient--block-4 {
-    height: 40vh;
-    /* background: url('../images/liam.png') no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    position: relative; 
-} 
-
-.patient-story--block
-
-{
-    margin: 10px 20px;
-    padding: 10px 20px;
-    font-size: 105%;
-    display: flex;
-    justify-content: center;
-    align-items: center
-} */
-
-
 
 /* .blocks */
 
