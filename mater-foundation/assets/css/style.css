@@ -146,6 +146,21 @@ body {
     position: relative;
 }
 
+.hero-container--volunteer {
+    height: 66vh;
+    background: url('../images/nurses.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 /* .full background image snipper from css-tricks.com */
 
 .about-container {
@@ -165,6 +180,12 @@ body {
     background-color: #8A8A8A;
     height: 100%;
     padding-bottom: 40px;
+}
+
+.volunteer-container {
+    background-color: #8A8A8A;
+    height: 100%;
+    padding: 40px 10px 80px 10px;
 }
 
 /* .containers */
@@ -210,6 +231,14 @@ body {
     font-weight: 500;
     padding: 25px 0;
     margin: 20px 0;
+    text-align: center;
+}
+
+.volunteer-heading {
+    color: #fff;
+    font-weight: 500;
+    padding: 25px 0;
+    margin: 0;
     text-align: center;
 }
 
@@ -324,6 +353,12 @@ body {
     border-radius: .3rem;
 }
 
+/* .timeline */
+
+.volunteer-section .form-check {
+    color: #fff;
+}
+
 /* .sections */
 
 /* Btns */
@@ -388,6 +423,11 @@ body {
     background-color: currentColor;
     border: 0;
     opacity: .25;
+}
+
+.volunteer-hr {
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 /* .hr */

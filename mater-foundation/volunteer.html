@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600|Fire+Sans:500,600,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
@@ -55,7 +56,7 @@
                     </div>
                 </nav>
                 <div class="nav-btn-wrapper">
-                    <a href="volunteer.html"><button class="btn-primary btn-large nav-btn--volunteer btn--orange">Volunteer</button></a>
+                    <button class="btn-primary btn-large nav-btn--volunteer btn--orange">Volunteer</button>
                 </div>
             </div>
         </div>
@@ -65,102 +66,72 @@
     <main>
         <article class="container-fluid main">
             <!-- Hero -->
-            <div class="container-fluid hero-container">
+            <div class="container-fluid hero-container--volunteer">
                 <div class="hero-overlay">&nbsp;</div>
                 <div class="row">
                     <div class="col-12">
                         <section class="hero-section text-center">
-                            <h1 class="heading hero-heading">Could you improve patient care?</h1>
-                            <p class="lead">As a volunteer, you can help make a life-saving difference!</p>
-                            <button type="button" class="btn hero-btn btn--orange">Volunteer</button>
+                            <h1 class="heading hero-heading">Thank you so much!</h1>
+                            <p class="lead">To volunteer, just complete your form below</p>
                         </section>
                     </div>
                 </div>
             </div>
             <!-- .hero -->
-            <!-- About -->
-            <div class="container-fluid about-container">
-                <section class="about-section">
+            <!-- Volunteer Form -->
+            <div class="container-fluid volunteer-container">
+                <section class="volunteer-section">
+                    <!-- Customized Form Code Snippet from Bootstrap -->
                     <div class="row">
-                        <div class="col-12 col-sm-6 offset-sm-4">
-                            <h2 class="heading about-heading">Your support changes lives</h2>
+                        <div class="col">
+                            <h2 class="heading volunteer-heading">Your Volunteer Form</h2>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="about-block about-block--left">
-                                <p>When you or a loved one is in hospital, you want the best care possible. By joining
-                                    us, you can help advance care for every Mater patient, every day.</p>
-                                <button type="button" class="btn btn--white btn-light">Learn more</button>
+                    <form class="row gx-3 gy-2 align-items-center">
+                        <div class="col-sm-4 offset-sm-4">
+                            <label class="visually-hidden" for="specificSizeInputName">Full Name</label>
+                            <input type="text" class="form-control" id="specificSizeInputName" placeholder="Full Name">
+                        </div>
+                        <div class="col-sm-4 offset-sm-4">
+                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Email</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="specificSizeInputEmail"
+                                    placeholder="Email">
                             </div>
                         </div>
-                        <div class="col-sm-6 d-none d-sm-inline-block">
-                            <div class="about-block about-block--right">
-                                <p>Your support will always go to those who need it most. View all our financial reports
-                                    to check how funds raised by volunteers are used.</p>
-                                <button type="button" class="btn btn--white btn-light">Learn more</button>
+                        <div class="col-sm-4 offset-sm-4">
+                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Phone Number</label>
+                            <div class="input-group">
+                                <input type="tel" class="form-control" id="specificSizeInputPhone"
+                                    placeholder="Phone Number">
                             </div>
                         </div>
-                    </div>
+                        <div class="col-sm-4 offset-sm-4">
+                            <label class="visually-hidden" for="specificSizeSelect">Area of Interest</label>
+                            <select class="form-select" id="specificSizeSelect">
+                                <div class="input-group-text"></div>
+                                <option selected>What interests you...</option>
+                                <option value="1">Fundraising Events</option>
+                                <option value="2">Patient Accompaniement</option>
+                                <option value="3">Telephone Counselling</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4 offset-sm-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="autoSizingCheck1">
+                                <label class="form-check-label" for="autoSizingCheck1">
+                                    Tick if you have a driver's licence
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 offset-sm-4">
+                            <button type="submit" class="btn btn--orange">Submit</button>
+                        </div>
+                    </form>
                 </section>
             </div>
-            <hr class="about-hr">
-            <!-- .about -->
-            <!-- Patient-stories -->
-            <div class="container-fluid patient-container">
-                <section class="patient-section">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="heading patient-heading">Patient Stories</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6 col-md-4">
-                            <blockquote class="blockquote patient-block">
-                                <div class="patient-image-wrapper">
-                                    <img src="assets/images/ashling.png"
-                                        alt="image of female cancer patient smiling bravely">
-                                    <a href="patient-stories/patient-1.html"><button type="button"
-                                            class="btn btn--orange btn-small">Learn more</button></a>
-                                </div>
-                                <div class="patient-story">
-                                    <p class="lead">"I was diagnosed with cancer, a week before my honeymoon."</p>
-                                    <p class="patient-details">Ashling, Co. Louth</p>
-                                </div>
-                            </blockquote>
-                        </div>
-                        <div class="col-sm-6 col-md-4 d-none d-sm-inline-block">
-                            <blockquote class="blockquote patient-block">
-                                <div class="patient-image-wrapper">
-                                    <img src="assets/images/brendan.png"
-                                        alt="image of father and daughter hugging each other, medical equipment in background">
-                                    <a href="patient-stories/patient-2.html"><button type="button"
-                                            class="btn btn--orange btn-small">Learn more</button></a>
-                                </div>
-                                <div class="patient-story">
-                                    <p class="lead">"My daughter inherited my hidden, heart condition."</p>
-                                    <p class="patient-details">Brendan, Co. Wexford</p>
-                                </div>
-                            </blockquote>
-                        </div>
-                        <div class="col-sm-6 col-md-4 d-none d-md-inline-block">
-                            <blockquote class="blockquote patient-block patient--block-3">
-                                <div class="patient-image-wrapper">
-                                    <img src="assets/images/carole.png"
-                                        alt="image of female cystic fibrosis patient waving to camera">
-                                    <a href="patient-stories/patient-3.html"><button type="button"
-                                            class="btn btn--orange btn-small">Learn more</button></a>
-                                </div>
-                                <div class="patient-story">
-                                    <p class="lead">"I was in good health, but things started to go downhill at 35."</p>
-                                    <p class="patient-details">Carole, Co. Monaghan</p>
-                                </div>
-                            </blockquote>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <!-- .patients-stories -->
+            <hr class="volunteer-hr">
+            <!-- .volunteer form -->
         </article>
     </main>
     <!-- Customized code snippet from akashgiricse/templates-using-bootstrap4 -->
