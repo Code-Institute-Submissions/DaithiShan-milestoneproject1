@@ -384,6 +384,12 @@ body {
     color: #212527;
 }
 
+.btn--orange:active {
+    color: #fff;
+    background-color: #14A9FF;
+    border-color: #14A9FF;
+}
+
 .btn--white {
     color: #5d5d5f;
     background-color: #f9fafb;
@@ -395,6 +401,13 @@ body {
     color: #ff6a13;
     background-color: #f9fafb;
     border-color: #f9fafb;
+    font-weight: 600;
+}
+
+.btn--white:active {
+    color: #f9fafb;
+    background-color: #ff6a13;
+    border-color: #ff6a13;
     font-weight: 600;
 }
 
