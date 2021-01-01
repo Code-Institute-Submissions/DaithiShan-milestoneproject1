@@ -146,6 +146,38 @@ body {
     position: relative;
 }
 
+.hero-container--news-2 {
+    height: 66vh;
+    margin-bottom: 20px;
+    background: url('../images/garden.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.hero-container--news-3 {
+    height: 66vh;
+    margin-bottom: 20px;
+    background: url('../images/screening.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .hero-container--about {
     height: 66vh;
     margin-bottom: 20px;
