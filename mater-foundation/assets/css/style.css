@@ -178,6 +178,38 @@ body {
     position: relative;
 }
 
+.hero-container--news-4 {
+    height: 66vh;
+    margin-bottom: 20px;
+    background: url('../images/piano.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.hero-container--news-5 {
+    height: 66vh;
+    margin-bottom: 20px;
+    background: url('../images/chemo.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .hero-container--about {
     height: 66vh;
     margin-bottom: 20px;
