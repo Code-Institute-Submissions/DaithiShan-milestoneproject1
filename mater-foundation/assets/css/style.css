@@ -185,7 +185,7 @@ body {
     padding: 20px 0;
 }
 
-.patient-container {
+.carousel-container {
     background-color: #8A8A8A;
     height: 100%;
     padding-bottom: 30px;
@@ -235,7 +235,7 @@ body {
     text-align: center;
 }
 
-.patient-heading {
+.carousel-heading {
     color: #fff;
     font-weight: 500;
     padding: 25px 0;
@@ -283,28 +283,28 @@ body {
     padding-left: 18px;
 }
 
-.patient-image-wrapper {
+.carousel-image-wrapper {
     position: relative;
     min-width: min-content;
 }
 
-.patient-section img {
+.carousel-section img {
     max-width: 100%;
     max-height: auto;
 }
 
-.patient-section .lead {
+.carousel-section .lead {
     color: #fff;
     padding-top: 10px;
     font-weight: 400;
     font-size: 110%;
 }
 
-.patient-section .patient-details {
+.carousel-section .details {
     font-weight: 500;
 }
 
-.patient-section .btn--orange {
+.carousel-section .btn--orange {
     position: absolute;
     bottom: 0;
     right: 0;
