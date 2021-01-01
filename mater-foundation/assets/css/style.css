@@ -130,6 +130,22 @@ body {
     position: relative;
 }
 
+.hero-container--news-1 {
+    height: 66vh;
+    margin-bottom: 20px;
+    background: url('../images/surgeons.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .hero-container--about {
     height: 66vh;
     margin-bottom: 20px;
@@ -216,6 +232,7 @@ body {
     font-weight: 500;
     padding-bottom: 5px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .patient-heading {
