@@ -304,6 +304,11 @@ body {
     font-weight: 500;
 }
 
+.carousel-section .date {
+    font-weight: 300;
+    font-size: 80%;
+}
+
 .carousel-section .btn--orange {
     position: absolute;
     bottom: 0;
