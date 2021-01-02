@@ -21,21 +21,44 @@ body {
 }
 
 .navbar {
-    flex: 1;
+    flex: 1.25;
 }
 
 .nav-btn-wrapper {
-    flex: 1;
+    flex: .75;
     text-align: end;
 }
 
 .navbar-nav .nav-item {
     font-size: 110%;
     margin-right: 5px;
+	display:inline-block;
+	position:relative;
+}
+
+/* Customized CSS Snippet copied from https://inspirationalpixels.com/ */
+
+.navbar-nav .nav-item ul {
+    position: absolute;
+    top:100%;
+    left:0px;
+    padding: 0;
+    margin: 0;
+    opacity: 100%;
+    z-index: 1;
+}
+
+/* .customized CSS Snippet copied from https://inspirationalpixels.com/ */
+
+
+.navbar-toggler {
+    margin-left: 66%;
+    border: 0;
+    padding: 0;
 }
 
 .nav-btn--volunteer {
-    margin-right: 7%;
+    margin-right: 10%;
     font-size: 105;
     font-weight: 500;
 }
@@ -530,6 +553,36 @@ body {
 }
 
 /* .hr */
+
+/* Modal */
+
+.modal-body {
+    height: 100%;
+}
+
+.modal-heading-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.newsletter-modal .heading {
+    font-weight: 500;
+    font-size: 105%;
+    padding: 18px 6px 6px 10px;
+}
+
+.modal-input {
+    margin: 2px;
+    padding: 4px;
+}
+
+.newsletter-modal .btn--orange {
+    margin: 9px 0 18px 6px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+/* .modal */
 
 /* Footer */
 

@@ -54,7 +54,8 @@
                     </div>
                 </nav>
                 <div class="nav-btn-wrapper">
-                    <a href="../volunteer.html"><button class="btn-primary btn-large nav-btn--volunteer btn--orange">Volunteer</button></a>
+                    <a href="../volunteer.html"><button
+                            class="btn-primary btn-large nav-btn--volunteer btn--orange">Volunteer</button></a>
                 </div>
             </div>
         </div>
@@ -72,10 +73,10 @@
                             <!-- Background image alt-text hack taken from davidmacd[dot]com -->
                             <span class="background-image sr-only" role="img"
                                 aria-label="image of female cancer patient on hospital bed smiling at camera"></span>
-                            <h1 class="heading hero-heading">Could you help us advance care?</h1>
-                            <p class="lead">Read the latest exciting news below, and decide!</p>
-                            <a href="../volunteer.html"><button type="button"
-                                    class="btn hero-btn btn--orange">Volunteer</button></a>
+                            <h1 class="heading hero-heading">Do you like this kind of news</h1>
+                            <p class="lead">Join our newsletter to see positive change monthly</p>
+                            <a href="#" data-toggle="modal" data-target="#newsletter-modal"><button type="button"
+                                    class="btn hero-btn btn--orange">Sign Up</button></a>
                         </section>
                     </div>
                 </div>
@@ -126,8 +127,8 @@
                                 <div class="carousel-image-wrapper">
                                     <img src="../assets/images/chemo.png"
                                         alt="image of male patient being administered chemotherapy in purpose-built chemotherapy chair">
-                                    <a href="news-5.html"><button type="button"
-                                            class="btn btn--orange btn-small">Learn more</button></a>
+                                    <a href="news-5.html"><button type="button" class="btn btn--orange btn-small">Learn
+                                            more</button></a>
                                 </div>
                                 <div class="carousel-story">
                                     <p class="lead">New Equipment for Cancer Unit</p>
@@ -140,8 +141,8 @@
                                 <div class="carousel-image-wrapper">
                                     <img src="../assets/images/surgeons.png"
                                         alt="image of surgeons performing emergency operation on patient">
-                                    <a href="news-1.html"><button type="button"
-                                            class="btn btn--orange btn-small">Learn more</button></a>
+                                    <a href="news-1.html"><button type="button" class="btn btn--orange btn-small">Learn
+                                            more</button></a>
                                 </div>
                                 <div class="carousel-story">
                                     <p class="lead">2 New Units Open in the Mater Hospital</p>
@@ -154,8 +155,8 @@
                                 <div class="carousel-image-wrapper">
                                     <img src="../assets/images/garden.png"
                                         alt="image of new winter-flowering plants in psychiatric ward garden">
-                                    <a href="news-2.html"><button type="button"
-                                            class="btn btn--orange btn-small">Learn more</button></a>
+                                    <a href="news-2.html"><button type="button" class="btn btn--orange btn-small">Learn
+                                            more</button></a>
                                 </div>
                                 <div class="carousel-story">
                                     <p class="lead">New winter-flowering garden for psychiatric ward
@@ -178,7 +179,7 @@
                     <h6 class="heading footer-heading">Get Involved:</h6>
                     <ul class="list-unstyled footer-list">
                         <li><a href="../volunteer.html">Volunteer</a></li>
-                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#newsletter-modal">Newsletter Sign-Up</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
@@ -227,6 +228,42 @@
         </div>
     </footer>
     <!-- Customized code snippet from akashgiricse/templates-using-bootstrap4 -->
+
+    <!-- Customized modal from Bootstrap/Whiskey Drop Module -->
+
+    <div class="modal" tabindex="-1" role="dialog" id="newsletter-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-container">
+                <div class="heading modal-heading">
+                    <h5 class="modal-title">Newsletter Sign Up Form</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="newsletter-modal bg-light">
+                        <div class="modal-heading-wrapper">
+                            <h5 class="heading">Newsletter Sign-Up Form</h5>
+                        </div>
+                        <div class="modal-input">
+                            <label class="visually-hidden" for="modal-full-name">Full Name</label>
+                            <input type="text" class="form-control" id="modal-full-name" aria-describedby="nameHelp"
+                                name="modal-full-name" placeholder="Full Name">
+                        </div>
+                        <div class="modal-input">
+                            <label class="visually-hidden" for="modal-email">Email address</label>
+                            <input type="email" class="form-control" id="modal-email" aria-describedby="emailHelp"
+                                name="modal-email" placeholder="Email">
+                        </div>
+                        <button type="submit" class="btn btn--orange">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .customized modal from Bootstrap/Whiskey Drop Module -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

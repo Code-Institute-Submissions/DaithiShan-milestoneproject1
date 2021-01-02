@@ -160,8 +160,7 @@
                     <h6 class="heading footer-heading">Get Involved:</h6>
                     <ul class="list-unstyled footer-list">
                         <li><a href="volunteer.html">Volunteer</a></li>
-                        <li><a href="#">Newsletter</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#newsletter-modal">Newsletter Sign-Up</a></li>                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-sm-6 col-md-3">
@@ -209,6 +208,42 @@
         </div>
     </footer>
     <!-- Customized code snippet from akashgiricse/templates-using-bootstrap4 -->
+
+        <!-- Customized modal from Bootstrap/Whiskey Drop Module -->
+
+    <div class="modal" tabindex="-1" role="dialog" id="newsletter-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-container">
+                <div class="heading modal-heading">
+                    <h5 class="modal-title">Newsletter Sign Up Form</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="newsletter-modal bg-light">
+                        <div class="modal-heading-wrapper">
+                            <h5 class="heading">Newsletter Sign-Up Form</h5>
+                        </div>
+                        <div class="modal-input">
+                            <label class="visually-hidden" for="modal-full-name">Full Name</label>
+                            <input type="text" class="form-control" id="modal-full-name" aria-describedby="nameHelp"
+                                name="modal-full-name" placeholder="Full Name">
+                        </div>
+                        <div class="modal-input">
+                            <label class="visually-hidden" for="modal-email">Email address</label>
+                            <input type="email" class="form-control" id="modal-email" aria-describedby="emailHelp"
+                                name="modal-email" placeholder="Email">
+                        </div>
+                        <button type="submit" class="btn btn--orange">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .customized modal from Bootstrap/Whiskey Drop Module -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
