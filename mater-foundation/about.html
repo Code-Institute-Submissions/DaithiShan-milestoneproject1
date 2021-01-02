@@ -41,20 +41,46 @@
                                     About Us
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="patient-stories/patient-1.html">
+                                                        <li class="nav-item">
+                                <a class="nav-link dropdown-toggle" href="#" id="patient-dropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Patient Stories
                                 </a>
+                                <div class="dropdown-menu" aria-labelledby="patient-dropdown">
+                                    <ul class="submenu bg-light">
+                                        <a class="dropdown-item" href="patient-stories/patient-1.html">Ashling's
+                                            Story</a>
+                                        <a class="dropdown-item" href="patient-stories/patient-2.html">Brendan's
+                                            Story</a>
+                                        <a class="dropdown-item" href="patient-stories/patient-3.html">Carole's
+                                            Story</a>
+                                        <a class="dropdown-item" href="patient-stories/patient-4.html">Liam's Story</a>
+                                    </ul>
+                                </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="latest-news/news-1.html">
+                                <a class="nav-link dropdown-toggle" href="#" id="news-dropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Latest News
                                 </a>
+                                <div class="dropdown-menu" aria-labelledby="news-dropdown">
+                                    <ul class="submenu bg-light">
+                                        <a class="dropdown-item" href="latest-news/news-1.html">2 Units Open</a>
+                                        <a class="dropdown-item" href="latest-news/news-2.html">New Garden</a>
+                                        <a class="dropdown-item" href="latest-news/news-3.html">New Refurb</a>
+                                        <a class="dropdown-item" href="latest-news/news-4.html">New Facility</a>
+                                        <a class="dropdown-item" href="latest-news/news-5.html">New Equipment</a>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="d-sm-none">
+                                <a href="volunteer.html"><button
+                                        class="btn btn-large nav-btn--volunteer btn--orange">Volunteer</button></a>
                             </li>
                         </ul>
                     </div>
                 </nav>
-                <div class="nav-btn-wrapper">
+                <div class="nav-btn-wrapper d-none d-sm-inline-block">
                     <a href="volunteer.html"><button class="btn-primary btn-large nav-btn--volunteer btn--orange">Volunteer</button></a>
                 </div>
             </div>
@@ -160,7 +186,8 @@
                     <h6 class="heading footer-heading">Get Involved:</h6>
                     <ul class="list-unstyled footer-list">
                         <li><a href="volunteer.html">Volunteer</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#newsletter-modal">Newsletter Sign-Up</a></li>                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#newsletter-modal">Newsletter Sign-Up</a></li> 
+                        <li><a href="mailto:contact@materfoundation.ie">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-sm-6 col-md-3">
