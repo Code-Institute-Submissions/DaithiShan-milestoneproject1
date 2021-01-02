@@ -25,7 +25,7 @@
                 </a>
                 <nav class="navbar navbar-light navbar-expand-sm">
 
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
 
@@ -45,29 +45,36 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="patient-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Patient Stories
                                 </a>
-                                 <div class="dropdown-menu dropdown-menu-right patient-dropdown" aria-labelledby="patient-dropdown">
+                                 <div class="dropdown-menu" aria-labelledby="patient-dropdown">
+                                     <ul class="submenu bg-light">
                                     <a class="dropdown-item" href="patient-stories/patient-1.html">Ashling's Story</a>
                                     <a class="dropdown-item" href="patient-stories/patient-2.html">Brendan's Story</a>
                                     <a class="dropdown-item" href="patient-stories/patient-3.html">Carole's Story</a>
                                     <a class="dropdown-item" href="patient-stories/patient-4.html">Liam's Story</a>
+                                    </ul>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link dropdown-toggle" href="#" id="news-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Latest News
                                 </a>
-                                <div class="dropdown-menu dropdown-menu-right news-dropdown" aria-labelledby="news-dropdown">
-                                    <a class="dropdown-item" href="latest-news/news-1.html">2 New Units Open</a>
-                                    <a class="dropdown-item" href="latest-news/news-2.html">Winter Garden Opens</a>
-                                    <a class="dropdown-item" href="latest-news/news-3.html">Clinic Refurb Begins</a>
-                                    <a class="dropdown-item" href="latest-news/news-4.html">Advancing Dementia Care</a>
-                                    <a class="dropdown-item" href="latest-news/news-5.html">Cancer Unit Equipped</a>
+                                <div class="dropdown-menu" aria-labelledby="news-dropdown">
+                                    <ul class="submenu bg-light">
+                                    <a class="dropdown-item" href="latest-news/news-1.html">2 Units Open</a>
+                                    <a class="dropdown-item" href="latest-news/news-2.html">New Garden</a>
+                                    <a class="dropdown-item" href="latest-news/news-3.html">New Refurb</a>
+                                    <a class="dropdown-item" href="latest-news/news-4.html">New Facility</a>
+                                    <a class="dropdown-item" href="latest-news/news-5.html">New Equipment</a>
+                                    </ul>
                                 </div>
+                            </li>
+                            <li class="d-sm-none">
+                            <a href="volunteer.html"><button class="btn btn-large nav-btn--volunteer btn--orange">Volunteer</button></a>
                             </li>
                         </ul>
                     </div>
                 </nav>
-                <div class="nav-btn-wrapper">
+                <div class="nav-btn-wrapper d-none d-sm-inline-block">
                     <a href="volunteer.html"><button class="btn btn-large nav-btn--volunteer btn--orange">Volunteer</button></a>
                 </div>
             </div>
