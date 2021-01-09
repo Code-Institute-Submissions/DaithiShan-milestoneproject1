@@ -67,6 +67,10 @@ div.dropdown-menu.show {
     padding: 0;
 }
 
+.toggler-btn {
+    margin-bottom: 2%;
+}
+
 .nav-btn--volunteer {
     margin-right: 10%;
     font-size: 105;
