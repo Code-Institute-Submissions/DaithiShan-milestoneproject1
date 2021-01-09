@@ -610,6 +610,25 @@ div.dropdown-menu.show {
     font-family: 'Roberto', sans-serif;
     background-color: #f8f9fa;
     color: #212529;
+    line-height: 175%;
+    font-size: 105%;
+}
+
+.footer-heading,
+.list-unstyled,
+.footer-address,
+.important-info
+ {
+    padding: 1% 5%;
+}
+
+.footer div {
+    padding: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #212529;
 }
 
 /* .footer */
