@@ -50,6 +50,15 @@ body {
 
 /* .customized CSS Snippet copied from https://inspirationalpixels.com/ */
 
+/* Additional CSS required to fix that snippet bug */
+
+div.dropdown-menu.show {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* .additional CSS required to fix that snippet bug */
 
 .navbar-toggler {
     margin-left: 66%;
