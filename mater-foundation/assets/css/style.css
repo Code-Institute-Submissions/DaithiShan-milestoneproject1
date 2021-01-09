@@ -305,6 +305,11 @@ div.dropdown-menu.show {
     padding: 40px 10px 80px 10px;
 }
 
+.footer-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 /* .containers */
 
 /*Overlays*/
@@ -448,7 +453,7 @@ div.dropdown-menu.show {
     content: attr(data-dates);
     position: absolute;
     left: 2.3em;
-    top: 3em;
+    top: 2.5em;
     display: block;
     font-family: 'Fira-Sans', sans-serif;
     font-weight: 500;
@@ -619,7 +624,14 @@ div.dropdown-menu.show {
 .footer-address,
 .important-info
  {
-    padding: 1% 5%;
+    padding: .5rem 1rem;
+}
+
+.footer-heading
+{
+    margin-top: 1rem;
+    font-size: 110%;
+    font-weight: 500;
 }
 
 .footer div {
@@ -630,5 +642,16 @@ div.dropdown-menu.show {
     text-decoration: none;
     color: #212529;
 }
+
+.footer a:hover {
+    color: #ff6a13;
+    text-decoration: underline;
+}
+
+.btn--orange:active {
+    color: #14A9FF;
+    text-decoration: underline;
+}
+
 
 /* .footer */
