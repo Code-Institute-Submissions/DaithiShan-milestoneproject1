@@ -49,6 +49,16 @@ body {
     z-index: 1;
 }
 
+.dropdown-item:hover {
+    background-color: #5d5d5f;
+    color: #fff;
+}
+
+.dropdown-item:active {
+    background-color: #5d5d5f;
+    color: #14A9FF;
+}
+
 /* .customized CSS Snippet copied from https://inspirationalpixels.com/ */
 
 /* Additional CSS required to fix that snippet bug */
