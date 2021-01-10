@@ -305,7 +305,8 @@ div.dropdown-menu.show {
     padding: 40px 10px 80px 10px;
 }
 
-.footer-container {
+div.container-fluid.footer-container.py-3.py-sm-5
+{
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -615,7 +616,7 @@ div.dropdown-menu.show {
     font-family: 'Roberto', sans-serif;
     background-color: #f8f9fa;
     color: #212529;
-    line-height: 175%;
+    line-height: 165%;
     font-size: 105%;
 }
 
@@ -624,7 +625,7 @@ div.dropdown-menu.show {
 .footer-address,
 .important-info
  {
-    padding: .5rem 1rem;
+    padding: .3rem 1rem;
 }
 
 .footer-heading
