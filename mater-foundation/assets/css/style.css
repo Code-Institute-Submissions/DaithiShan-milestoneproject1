@@ -349,7 +349,6 @@ div.container-fluid.footer-container.py-3.py-sm-5
     font-weight: 500;
     padding-bottom: 5px;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 .carousel-heading {
@@ -402,7 +401,12 @@ div.container-fluid.footer-container.py-3.py-sm-5
 
  .about-section {
     padding-left: 18px;
-} 
+}
+
+.about-section .col-10 {
+    padding-left: 0;
+    padding-right: 12px;
+}
 
 .carousel-image-wrapper {
     position: relative;
@@ -566,7 +570,8 @@ div.container-fluid.footer-container.py-3.py-sm-5
 }
 
 .story-block {
-    margin: 5px 10px;
+    margin: 5px 8px;
+    padding: 0;
     font-size: 115%;
 }
 
