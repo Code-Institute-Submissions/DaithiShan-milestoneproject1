@@ -37,7 +37,7 @@ body {
 	position:relative;
 }
 
-/* Customized CSS Snippet copied from https://inspirationalpixels.com/ */
+/* Customized CSS Snippet for Navbar copied from https://inspirationalpixels.com/ */
 
 .navbar-nav .nav-item ul {
     position: absolute;
@@ -569,7 +569,7 @@ div.container-fluid.footer-container.py-3.py-sm-5
 /* Blocks */
 
 .about-block {
-    margin: 5px 10px 5px 0;
+    margin: 5px 10px 5px 10px;
     padding: 5px 10px 5px 0;
     max-width: 550px;
     font-size: 120%
