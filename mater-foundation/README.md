@@ -1,76 +1,129 @@
 # The Mater Foundation Website (Reimagined)
 
-## Milestone Project Purpose
+## Milestone Project
 
-The reimagined website of the Mater Foundation, the official fundraising body for the Mater Public Hospital. The organizing principle is education, and the target audience is potential supporters and returning supporters. The primary goal is to prompt support from all visitors, by inspiring their trust and confidence.
+This is a reimagined website for the Mater Foundation, the official charity of the Mater Public Hospital where I currently work as Community Officer.
 
-[View the live project here.](###)
+**[View the live project here.](https://daithishan.github.io/milestoneproject1/)**
+
+## Project Goals
+
+1. To engage voluntary support for the Mater from first time visitors, by inspiring empathy, action, trust and confidence.
+
+2. To ensure that returning, former volunteers and existing volunteers feel sure that their support has made or is making a difference.
 
 ## User Experience (UX)
 
+-  #### First Time Visitor / Potential Volunteer Goals
+
+1. Quickly see how to get involved
+2. Or learn more about potential impact of their support
+3. Assess whether The Mater Foundation is a reputable charity, worthy of trust
+
+-  #### Returning Visitor / Volunteer Goals
+
+1. Feel that my support has made a genuine difference
+2. Get a deeper sense of charity's work and progress to goal
+3. Directly hear from patients about the benefit of their support
+
+-  #### Frequent Visitor / Volunteer Goals
+
+1. See continuously updated content in stories and news
+2. See a solid plan to completely fulfill charitable mission
+3. Join a community that will be a source of meaning in their lives
+
 ### User Stories
 
--  #### Potential Volunteer Goals
+-   #### As a first time visitor / potential volunteer, I want:
 
-1. Learn how they can make a big difference
-2. Quickly find out how to act on that information
-3. Be uplifted and inspired by amazing patient stories
-4. Confidence that the Mater Foundation is an official charity
+1. Immediately to have a window, or a doorway, on to the hospital / the cause
+2. To see a list of ways of getting involved, and pick one that suits
+3. To learn more about the people who benefit, and what the charity's done
+4. To be assured by items like charity registration numbers and easy contact points
 
--   #### Supporting the Mater Foundation will meet these vital needs 
+-  #### As a returning visitor / volunteer, I want:
 
-1. Our focus is showing the need, and how you can help meet it
-2. Priority for us is ease of visitor navigation and contact in planning
-3. Fature numerous patient stories, and point to more on social media
-4. Ensure official charity registration details are on every web page
+1. To read recent news that makes me confident I helped make a difference
+2. To see a timeline of what the charity has achieved, and get a sense of progress
+3. To read patient stories from across hospital, the people I'm really trying to help
 
--  #### Returning Volunteer Goals
+-  #### As a frequent visitor / volunteer, I want: 
 
-1. Feel that previous support made a genuine difference
-2. See real progress of the organization to fulfilling mission
-3. Directly hear from intended beneficiaries about benefit of their support
-4. Join a community that will be a positive source of meaning in their life
-
--  #### We can provide these reassurances, and that community
-
-1. Feature hospital news that shows volunteer impact on mission
-2. Illustrate a timeline of major projects, and show continual improvement
-3. Prominently feature direct quotes from patients grateful for support
-4. Provide sign up for our community newsletter, and point to  social media
-
--  #### Frequent Volunteer Goals
-
-1. Feel especially valued
-2. Learn about how funds are being spent
-3. Understand our strategy, and overall end point
-4. Deepen their relationship with our organization
-
--  #### We will meet the goals of this key group by 
-
-1. Regularly updating volunteer content on our website
-2. Provide sign posted links to downloadable audited accounts
-3. Provide sign posted links to our downloadable strategy
-4. Offer a space for visitors to tell their own story
-
--   #### Mater Foundation Goals
-
-1. Prompt contact from all potential supporters
-2. Retain and reactivate returning supporters
-3. Inspire trust in all website visitors
-4. Show amazing impact of support
+1. To see fresh news and stories, to get a sense of value and progress
+2. To view the charity's strategy, so I feel longterm commitment is worthwhile
+3. To join the newsletter, or social media, to feel a greater sense of belonging 
 
 ### Design
 
-- The three main colours used are Mater Foundation orange, grey and white.
+#### Colour Scheme
 
-- Trebuchet is the main font used throughout the website, with Sans-Serif as the fallback font. Trebuchet is a humanist font, and has personality as well as professional clarity. It aligns with our brand values.  
+- The main colours used are shades of orange, grey and white as these are the brand colours of the Mater Foundation
+
+#### Typography
+- Roboto is the main body font used throughout the website, with Sans-Serif as the fallback font. It's widely used, and balances professionalism and friendliness.
+- Fire Sans is used for titles, and is primarily humanist. This suits a charity's need for warmth, intimacy and friendliness.
+
+#### Imagery
+- Every image on the website is from within The Mater Public Hospital, with full rights and consent of use resting with The Mater Foundation.
+- Mater specific imagery is very, very important to making sure visitors feel that the site is a window or doorway on to the cause.
+
 
 ### Sitemap and Wireframe
 
-- Mobile Home Page Wireframe - [View](wireframes-sitemap/home-page-mobile.pdf)
+- Mobile Home Page Wireframe - [View](./wireframes/mobile-homepage.pdf)
 
-- Desktop Home Page Wireframe - [View](wireframes-sitemap/home-page-desktop.pdf)
+- Tablet Home Page Wireframe - [View](./wireframes/tablet-homepage.pdf)
 
-- Contact Us Page Wireframe - [View](wireframes-sitemap/volunteer-page.pdf)
+- Desktop Home Page Wireframe - [View](./wireframes/desktop-homepage.pdf)
+
+
+## Features
+
+### General Concerns
+
+- Responsive on all devices, so that the information presented is increasingly streamlined for tablet and mobile users respectively.
+- Interative pages, multiple bright call to actions (CTAs) on every page, as volunteer recruitment depends on the very transient emotional impulse to help
+- User feedback, every CTA and link provides clear user feedback at hover and click stages
+
+### Specific Features
+
+##### Calls to Action
+
+- Volunteer button, whether used in the nav bar or hero image, sends users to an enquiry form where they can join organization
+- Newsletter sign up button, when used on latest news page, allows users to sign up quickly through a modal pop up
+- Get involved links on footer, when used, allow visitors to volunteer, join newsletter mailing or contact organization
+
+##### Volunteer Form
+
+- The volunteer form allows users to input contact information, and make a selection between different areas of volunteering, so they can note their preference.
+- All input fields apart from the checkbox are required, to help prevent user error in submission.
+- The submit button provides user feedback for hover, and click, so they know an action has been taken.
+
+##### Newsletter Modal
+
+- The newsletter modal is broken.
+- All input fields apart from the checkbox are required, to help prevent user error in submission.
+- The submit button provides user feedback for hover, and click, so they know an action has been taken.
+
+##### Content Elements
+
+- Each news or patient story is separately hosted but links to another, similar story, so interested users can continue to read clearly communicated content.
+
+- Each news or patient story also prominently links to an action, to the user is aware of the intended choice to continue reading, or take action.
+
+##### Downloadable Content and External Links
+
+- Downloadable content on the About Us page, and in the footer, opens in a separate tab so the user can read it later at leisure without interrupting their visit.
+
+
+### Features left to implement
+
+## Technologies used
+
+## Testing
+
+## Deployment
+
+## Credits
 
 
