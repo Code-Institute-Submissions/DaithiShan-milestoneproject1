@@ -602,8 +602,21 @@ div.container-fluid.footer-container.py-3.py-sm-5
 
 /* Modal */
 
-.modal-body {
+.modal-content {
     height: 100%;
+}
+
+.cancel-wrapper {
+    text-align: right;
+}
+
+.cancel {
+    color: #fff;
+    background-color: red;
+    height: 25px;
+    width: 25px;
+    margin: 4px;
+    border: 0;
 }
 
 .modal-heading-wrapper {

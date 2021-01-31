@@ -79,48 +79,70 @@ This is a reimagined website for the Mater Foundation, the official charity of t
 
 ## Features
 
-### General Concerns
+### General Features
 
-- Responsive on all devices, so that the information presented is increasingly streamlined for tablet and mobile users respectively.
-- Interative pages, multiple bright call to actions (CTAs) on every page, as volunteer recruitment depends on the very transient emotional impulse to help
-- User feedback, every CTA and link provides clear user feedback at hover and click stages
+- Responsive on all devices, so users get the best, tailored experience for the specific way they access the website.
+- Clearly interactive pages so that users know what actions to take, and how to take them, at every point 
 
-### Specific Features
+### Button Styled Links
 
-##### Calls to Action
+- Page links like Read More and Volunteer are styled as big buttons so users clearly see them, and can easily tap them on mobile devices, to go to the appropriate page.
 
-- Volunteer button, whether used in the nav bar or hero image, sends users to an enquiry form where they can join organization
-- Newsletter sign up button, when used on latest news page, allows users to sign up quickly through a modal pop up
-- Get involved links on footer, when used, allow visitors to volunteer, join newsletter mailing or contact organization
-
-##### Volunteer Form
+### Volunteer Form
 
 - The volunteer form allows users to input contact information, and make a selection between different areas of volunteering, so they can note their preference.
-- All input fields apart from the checkbox are required, to help prevent user error in submission.
+- All input fields apart from the checkbox are required, so users can avoid partial, incomplete submission of details.
 - The submit button provides user feedback for hover, and click, so they know an action has been taken.
 
-##### Newsletter Modal
+### Newsletter Modal
 
-- The newsletter modal is broken.
-- All input fields apart from the checkbox are required, to help prevent user error in submission.
+- The newsletter sign up modal is a quick pop up, allowing the user to input their details, and join our mailing list.
 - The submit button provides user feedback for hover, and click, so they know an action has been taken.
 
-##### Content Elements
+### Content Loops
 
 - Each news or patient story is separately hosted but links to another, similar story, so interested users can continue to read clearly communicated content.
 
-- Each news or patient story also prominently links to an action, to the user is aware of the intended choice to continue reading, or take action.
-
-##### Downloadable Content and External Links
+### Downloadable Content and External Links
 
 - Downloadable content on the About Us page, and in the footer, opens in a separate tab so the user can read it later at leisure without interrupting their visit.
 
+## Features left to implement
 
-### Features left to implement
+### Donation Functionality
+
+- A donation function is planned for later roll outs. It would work through use of a button styled link and form similar to the existing volunteer functionality would be enabled on the website. This would allow users to support the Mater Foundation through a once off or regular donation.
+
+### Confirmation Emails for Volunteer Sign-Up, Newsletter Sign-Up
+
+- Further to the user feedback elements that exist, a confirmation email feature is planned for later roll outs. It would be linked to submission of both the volunteer form, and the newsletter sign up form, and would trigger an email confirmation to users who've submitted so that they know their submission was received.
 
 ## Technologies used
 
+### Languages used
+
+* HTML
+* CSS
+
+### Frameworks, Libraries and Programs used
+
+* Bootstrap v5.0.0 beta ; used to help build the core stylings, and assist with responsiveness
+
+* jQUery ; used for the mobile version of the navbar, and for the newsletter sign-up modal
+
+* Google Fonts; used to import 'Fire Sans' for the title font and 'Roboto' for the body font
+
+* Git; used for version control by utilizing the Gitpod terminal to commit to Git, and push to github
+
+* Github; used to store the project code in a repository, and to deploy the page
+
+* Balsamiq; used to create the wireframes during the design process
+
+* Canva; used to format and edit the website images
+
 ## Testing
+
+modal was dismissing on click because it didn't have modal-content
 
 ## Deployment
 
