@@ -395,7 +395,7 @@ div.container-fluid.footer-container.py-3.py-sm-5
 }
 
 .hero-section .lead {
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 10px;
@@ -502,7 +502,7 @@ div.container-fluid.footer-container.py-3.py-sm-5
     background-color: #ff6a13;
     border-color: #ff6a13;
     margin-top: 10px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: .3rem;
 }
 
@@ -547,21 +547,21 @@ div.container-fluid.footer-container.py-3.py-sm-5
     color: #5d5d5f;
     background-color: #f9fafb;
     border-color: #5d5d5f;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .btn--white:hover {
     color: #ff6a13;
     background-color: #f9fafb;
     border-color: #f9fafb;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .btn--white:active {
     color: #f9fafb;
     background-color: #ff6a13;
     border-color: #ff6a13;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /*.Btns*/
