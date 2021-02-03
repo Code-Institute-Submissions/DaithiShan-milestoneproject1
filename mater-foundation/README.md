@@ -70,11 +70,11 @@ This is a reimagined website for the Mater Foundation, the official charity of t
 
 ### Sitemap and Wireframe
 
-- Mobile Home Page Wireframe - [View](./wireframes/mobile-homepage.pdf)
+- Mobile Home Page Wireframe - [View](https://github.com/DaithiShan/milestoneproject1/blob/master/mater-foundation/wireframes/mobile-homepage.pdf)
 
-- Tablet Home Page Wireframe - [View](./wireframes/tablet-homepage.pdf)
+- Tablet Home Page Wireframe - [View](https://github.com/DaithiShan/milestoneproject1/blob/master/mater-foundation/wireframes/tablet-homepage.pdf)
 
-- Desktop Home Page Wireframe - [View](./wireframes/desktop-homepage.pdf)
+- Desktop Home Page Wireframe - [View](https://github.com/DaithiShan/milestoneproject1/blob/master/mater-foundation/wireframes/desktop-homepage.pdf)
 
 
 ## Features
@@ -142,10 +142,92 @@ This is a reimagined website for the Mater Foundation, the official charity of t
 
 ## Testing
 
-modal was dismissing on click because it didn't have modal-content
+### Validation
+* W3C HTML validation
+* W3C CSS validation
+
+The developer used W3C HTML validation and W3C CSS validation to help debug, and check the validity of the website's code.
+
+### Responsiveness
+* The Google Chrome Responsive Viewer Plugin was used to test responsiveness across a range of devices
+    * **[View the plugin here.](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en)**
+
+### Performance
+* Lighthouse from the Google Chrome Developer Tools provided an analysis of the website's performance.
+    * This analysis was key in fixing a development issue around the use of pngs over jpgs for many images, detailed in bugs.
+    * **[View the report here.](https://github.com/DaithiShan/milestoneproject1/blob/master/mater-foundation/images/lighthouse-report.jpg)**    
+
+### User Stories Testing
+
+Most common path through the existing Mater Foundation website:
+
+* Home > Donate
+* Home > Volunteer is the anticipated most common path based on this data.
+* Home page therefore has 2 large, colourful call to action buttons to volunteer
+
+The latest news and patient stories part of the website are the second most frequented, and offer 2 calls to action each.
+
+* Home > Patient-1 > Patient-2 > Etc
+* Home > Patient-1 > Volunteer
+
+Similarly,
+
+* Home > News-1 > News-2 > News-3 > Etc
+* Home > News-1 > Newsletter Sign-Up
+
+### Testing User Stories from UX Section of ReadME
+
+#### First Time Visitor / Potential Volunteer
+
+- As a first time visitor / potential volunteer, I want immediately to have a window or doorway on to the cause.
+    * Home hero image opens on to hospital, and text + CTA position user as a potential life-saving hospital worker.
+
+- As a new visitor / potential volunteer, I want to see a list of ways of getting involved.
+    * The volunteer form has a dropdown list of different interests to choose from for this user.
+    * Additionally, the footer on every page offers opportunity to join newsletter, social media, or email the charity.
+
+- As a new visitor / potential volunteer, I want to learn how people benefit.
+    * Every page provides access to multiple stories direct from patients, and news of recent patient care projects
+
+- As a new visitor / potential volunteer, I want to be assured of charity's legitimacy
+    * Footer on every page provides charity registration number, and multiple contact points.
+
+#### Returning Visitor / Volunteer
+
+- As a returning visitor / volunteer, I want to read news that makes me confident I made a difference
+    * Latest news is accessible on every page, and shows how volunteers have enabled big projects that will make a transformative difference
+
+- As a returning visitor / volunteer, I want to see a timeline of what the charity has achieved and get a sense of progress
+    * A timeline of major achievements is accessible on the About page
+
+- As a returning visitor / volunteer, I want to read stories from patients I'm trying to help
+    * Patient stories are illustrated by photos of patients themselves, and stories are in direct quotes.
+    * Each story is always linked or listed alongside another, to allow user to continue to pursue reading easily.
+
+#### Returning Visitor / Volunteer 
+
+- As a returning visitor / volunteer, I want to read consistently updated news and stories
+    * This is a key reason for the size of this M1P, to provide a multiplicity of news (5) and stories (4)
+
+2. To view the charity's strategy, so I feel longterm commitment is worthwhile
+    * The About page features a downloadable Mater strategy with objectives benefiting patient outcomes
+
+3. To join the newsletter, or social media, to feel a greater sense of belonging
+    * This feature is accessible on every page via the footer, and is positioned in hero element on Latest News section
+
+### Bugs
+Display
+Dropdown Box
+Modal
+Button Anchor Tags
+File-Names
+
+
 
 ## Deployment
 
 ## Credits
+
+Attribute to each bit of code and images
 
 
