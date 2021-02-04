@@ -386,13 +386,13 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
     * Bootstrap as a framework was incredibly useful to building this website
     * The Whiskey Drop Section of the Code Institute Bootstrap Module was very helpful to giving me an idea of where to begin writing, and how to begin structuring, my code.
 
-    * I owe my mentor Allen Varghese a lot of credit for great mentoring, and the discovery of the responsive view Chrome plugin, and cooolor.com for color palettes.
-    * I owe the Slack community a great deal of credit also for their responsiveness and willingness to always help with small problems!
-
 #### Navbar Dropdown
     * I owe inspirationalpixels.com credit for the styling of the dropdown menu. [View Snippet](https://inspirationalpixels.com/creating-a-dropdown-menu-with-html-css)
 
 #### Footer
     * I owe GitHub user kashgiricse credit for the structure of the footer. [View Template] (https://github.com/akashgiricse/templates-using-bootstrap4)
 
+#### Acknowledgements
 
+    * I owe my mentor Allen Varghese a lot of credit for great mentoring, and the discovery of the responsive view Chrome plugin, and cooolor.com for color palettes.
+    * I owe the Slack community a great deal of credit also for their responsiveness and willingness to always help with small problems!
