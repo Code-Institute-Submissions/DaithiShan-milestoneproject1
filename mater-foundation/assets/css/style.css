@@ -37,7 +37,7 @@ body {
 	position:relative;
 }
 
-/* Customized CSS Snippet for Navbar copied from https://inspirationalpixels.com/ */
+/* Customized CSS Snippet for Navbar from https://inspirationalpixels.com/creating-a-dropdown-menu-with-html-css/ */
 
 .navbar-nav .nav-item ul {
     position: absolute;
@@ -65,9 +65,9 @@ body {
     color: #14A9FF;
 }
 
-/* .customized CSS Snippet copied from https://inspirationalpixels.com/ */
+/* .customized CSS Snippet from https://inspirationalpixels.com/creating-a-dropdown-menu-with-html-css/*/
 
-/* Additional CSS required to fix that snippet bug */
+/* Additional CSS required to fix bug in that snippet */
 
 div.dropdown-menu.show {
     margin: 0;
